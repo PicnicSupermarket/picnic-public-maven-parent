@@ -17,7 +17,7 @@ jobs:
             sonarEnabled: false
     steps:
       - name: Check out code
-        uses: actions/checkout@v3.1.0
+        uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v4.1.4
         with:
           # Fetch entire history for SonarCloud analysis.
           fetch-depth: 0
